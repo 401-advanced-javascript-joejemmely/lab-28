@@ -1,0 +1,26 @@
+@startuml
+
+title Internal State
+
+class App {
+}
+
+class Form {
+    ==state==
+    # count:number
+    # name:string
+    ==methods==
+    +handleName()
+    +handleSubmit()
+}
+
+class Display {
+    ==props==
+    # count:number
+    # name:string
+}
+
+App --* Form
+Form --* Display
+
+@enduml

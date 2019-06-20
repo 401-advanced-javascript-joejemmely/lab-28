@@ -1,0 +1,33 @@
+@startuml
+
+title External State
+
+class App {
+    ==state==
+    # count:number
+    # name:string
+    ==methods==
+    +handleName()
+    +handleSubmit()
+}
+
+class Form {
+    ==props==
+    +handleName()
+    +handleSubmit()
+    ==methods==
+    +handleName()
+    +handleSubmit()
+}
+
+class Display {
+    ==props==
+    # count:number
+    # name:string
+}
+
+App "handleName" <.. "onChange" Form
+App "handleSubmit" <.. "onSubmit" Form
+App --> Display
+
+@enduml

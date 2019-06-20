@@ -1,0 +1,10 @@
+@startuml
+
+title Props
+
+class Message {
+    ==state==
+    # text:string
+}
+
+@enduml
