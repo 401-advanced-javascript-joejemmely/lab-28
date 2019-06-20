@@ -13,8 +13,8 @@ class App {
 
 class Form {
     ==props==
-    +handleName()
-    +handleSubmit()
+    +handleName:function
+    +handleSubmit:function
     ==methods==
     +handleName()
     +handleSubmit()
