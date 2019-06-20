@@ -18,7 +18,7 @@
 * [part 2](https://codesandbox.io/s/28-starter-code-external-state-part2-qe87p)
   
 #### Tests
-* CodeSandbox interated test
+* CodeSandbox integrated test
 * Tests only exist in part 2!
 
 ## UML
